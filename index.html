@@ -15,7 +15,11 @@
       rel="stylesheet"
       href="https://code.getmdl.io/1.3.0/material.yellow-amber.min.css"
     />
-    <link rel="apple-touch-icon" sizes="180x180" href="Tim-apple-touch-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Tim-apple-touch-icon.png"
+    />
     <link rel="icon" type="image/png" sizes="32x32" href="Tim-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="Tim-16x16.png" />
     <link rel="manifest" href="site.webmanifest" />
@@ -37,30 +41,42 @@
         <form action="#">
           <p>Street name</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="first-name">
-            <label class="mdl-textfield__label" for="first-name">Name here ...</label>
+            <input class="mdl-textfield__input" type="text" id="first-name" />
+            <label class="mdl-textfield__label" for="first-name"
+              >Name here ...</label
+            >
           </div>
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
           <p>Street number</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="age-entered">
-            <label class="mdl-textfield__label" for="age-entered">Age here ...</label>
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="age-entered"
+            />
+            <label class="mdl-textfield__label" for="age-entered"
+              >Age here ...</label
+            >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <!-- Raised button with ripple -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="enterClicked()">
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="enterClicked()"
+        >
           Enter
         </button>
-        <br>
-        <br>
-        <br>
+        <br />
+        <br />
+        <br />
         <div id="user-info">
           <div id="address"></div>
         </div>
+      </main>
     </div>
   </body>
 </html>
